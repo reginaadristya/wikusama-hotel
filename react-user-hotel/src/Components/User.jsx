@@ -29,7 +29,7 @@ const User = () => {
     return (
         <div className='p-5'>
             <div className='py-5'>
-                <a href="/users/add_user" className='px-5 py-4 bg-blue-500 text-white text-xl rounded-md'>Tambah Tipe Kamar</a>
+                <a href="/users/add_user" className='px-5 py-4 bg-blue-500 text-white text-xl rounded-md'>Tambah User</a>
             </div>
             <div className=" overflow-x-auto shadow-md">
                 <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
