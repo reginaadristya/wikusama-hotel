@@ -15,7 +15,6 @@ const Login = () => {
 
         axios.post('http://localhost:8000/hotel/user/login', user)
             .then(res => {
-                console.log(res.data)
                 localStorage.setItem('token', res.data.token)
                 localStorage.setItem('user', res.data.data.id_user)
                 localStorage.setItem('role', res.data.data.role)

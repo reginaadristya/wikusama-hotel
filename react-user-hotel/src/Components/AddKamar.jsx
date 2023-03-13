@@ -22,7 +22,6 @@ const AddKamar = () => {
         axios.post('http://localhost:8000/hotel/kamar/', data, headerConfig())
             .then(res => {
                 navigate('/kamar')
-                console.log(res.data)
             })
     }
 
@@ -30,7 +29,6 @@ const AddKamar = () => {
         axios.get('http://localhost:8000/hotel/tipe_kamar/', headerConfig())
             .then(res => {
                 setTipeKamarList(res.data.tipe_kamar)
-                console.log(res.data)
             })
     }
 

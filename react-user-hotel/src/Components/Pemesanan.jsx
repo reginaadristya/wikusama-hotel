@@ -20,7 +20,6 @@ const Pemesanan = () => {
         axios.get('http://localhost:8000/hotel/pemesanan', headerConfig())
             .then(res => {
                 setData(res.data.pemesanan)
-                console.log(res.data.pemesanan)
             })
     }
 

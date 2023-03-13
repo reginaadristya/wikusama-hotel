@@ -19,7 +19,6 @@ const EditTipeKamar = () => {
                 setNamaTipeKamar(res.data.data[0].nama_tipe_kamar)
                 setHarga(res.data.data[0].harga)
                 setDeskripsi(res.data.data[0].deskripsi)
-                console.log(res.data.data)
             })
     }
 

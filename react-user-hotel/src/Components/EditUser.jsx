@@ -27,7 +27,6 @@ const EditUser = () => {
         axios.put(`http://localhost:8000/hotel/user/${params.id}`, data, headerConfig())
             .then(res => {
                 navigate('/users')
-                console.log(res)
             })
     }
 
@@ -37,7 +36,6 @@ const EditUser = () => {
                 setNama(res.data.data.nama_user)
                 setEmail(res.data.data.email)
                 setRole(res.data.data.role)
-                console.log(res.data)
             })
     }
 

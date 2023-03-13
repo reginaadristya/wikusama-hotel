@@ -10,7 +10,6 @@ const Kamar = () => {
         axios.get('http://localhost:8000/hotel/kamar', headerConfig())
             .then(res => {
                 setData(res.data.data)
-                console.log(res.data.data)
             })
     }
 
